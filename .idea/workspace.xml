@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6a876c6-6178-4981-9236-4d9af64c2183" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/static/images/cctv.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/models/calculate_Similarity.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/static/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/templates/error.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/models/printer.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/templates/print.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/__init__.py" afterPath="$PROJECT_DIR$/project/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/controller/__init__.py" afterPath="$PROJECT_DIR$/project/controller/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/controller/printer.py" afterPath="$PROJECT_DIR$/project/controller/printer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/models/__init__.py" afterPath="$PROJECT_DIR$/project/models/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/templates/index.html" afterPath="$PROJECT_DIR$/project/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/templates/layout.html" afterPath="$PROJECT_DIR$/project/templates/layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.py" afterPath="$PROJECT_DIR$/server.py" />
-    </list>
+    <list default="true" id="d6a876c6-6178-4981-9236-4d9af64c2183" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
