@@ -1,8 +1,11 @@
 {% extends "layout.html" %}
 {% block body %}
  <ul> 
-Test MVC application using Flask
-<p>
- <a href="{{ url_for('printer') }}">Click here to print!</a>  </ul>
+    SMART CCTV
 
+     <br>
+     <img src = "{{ url_for('static', filename= filename) }}", width="40%" height="auto">
+
+
+ </ul>
 {% endblock %}
