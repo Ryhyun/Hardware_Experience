@@ -9,7 +9,7 @@ from werkzeug.utils import secure_filename
 
 
 UPLOAD_FOLDER = os.path.join('project', 'static')
-ALLOWED_EXTENSIONS = set(['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'])
+ALLOWED_EXTENSIONS = set(['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif','bmp'])
 
 app = Flask('project')
 app.config['SECRET_KEY'] ='random'

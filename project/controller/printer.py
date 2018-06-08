@@ -7,9 +7,11 @@ from flask import render_template, request, redirect, url_for
 
 
 
+
+
 # filename Initialize
 global filename
-filename = "images/cctv.jpeg"
+filename = "images/9.bmp"
 
 # Index
 @app.route('/', methods=['GET'])
@@ -47,14 +49,15 @@ def upload_file():
     global filename
     if request.method == 'POST':
         print( request.files)
-        if 'test' not in request.files:
+        if 'upfile' not in request.files:
             print( 'No file part')
             return redirect( request.url)
-        file = request.files['test']
-        print(file)
+        file = request.files['upfile']
         if file.filename == '':
             print('No Selected file')
             return redirect(request.url)
+        print(file.filename)
+
         if file and allowed_file(file.filename):
             print('File allowed')
             filename = "images/" + secure_filename(file.filename)
@@ -71,4 +74,5 @@ def upload_file():
 
             return "new"
 
+        print("error")
         return render_template('error.html')
