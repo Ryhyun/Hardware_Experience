@@ -2,11 +2,11 @@
 {% block body %}
 
 
-
+<meta http-equiv="refresh" content="3">
 <!-- Header -->
 <header class="w3-display-container w3-content w3-center" style="max-width:1500px">
 
-    <img class="w3-image" src = "{{ url_for('static', filename= filename) }}" width="500" height="500" >
+    <img class="w3-image" src = "{{ url_for('static', filename= filename) }}" width="300" height="300" >
 
 
   <!-- Navbar (placed at the bottom of the header image) -->
@@ -26,8 +26,9 @@
 </div>
 </div>
 <!-- Page content -->
-<div class="w3-content w3-padding-large w3-margin-top" id="compare">
+<div class="w3-content w3-padding-large w3-center" id="compare">
     <!-- Images  -->
+    <p id="result">{{ result}}</p>
     <ul >
          {% for t in tempImages %}
         <img class="w3-image w3-margin-top" src = "{{ url_for('static', filename= t['path']) }}" width="500" height="500">

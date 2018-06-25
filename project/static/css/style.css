@@ -1,4 +1,32 @@
-.title{
+h1{
+font-style: italic ;
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 1.0em;
+    color: black;
+    font-family: arial;
+    text-align:center;
+}
+#result{
+ font-style: italic ;
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 1.0em;
+    color: red;
+    font-family: arial;
+    text-align:center;
+
+
+}
+
+
+p{
+   font-style: italic ;
+    font-weight: bold;
+    font-size: 1.0em;
+    line-height: 1.0em;
+    color: navy;
+    font-family: arial;
 
 
 }
