@@ -14,5 +14,5 @@ Main
 ![2](https://user-images.githubusercontent.com/28247914/42224672-9b8c4352-7f15-11e8-9bf7-e0b58afaa750.png)
 
 
-저장된 이미지와 유사도 비교를 하여 침입자라고 
+저장된 이미지와 유사도 비교를 하여 침입자라고 판단
 ![3](https://user-images.githubusercontent.com/28247914/42224676-9d1a169a-7f15-11e8-85a8-186fbdebaf16.png)
